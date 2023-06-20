@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family:  'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -8,6 +8,32 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family:  'Courier New',
     monospace;
 }
+
+
+.project-card-view {
+  box-shadow: 0 3px 4px 2px #0090ff !important;
+  color: black !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+  }
+  .project-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px #034577 !important;
+  }
+  
+  .project-horizontal-line{
+  background: #034577;
+  color: #0090ff;
+  border-color: #0090ff;
+  height: '3px';
+  }
+  .project-title{
+  color: #0090ff;
+  
+  }
