@@ -27,6 +27,7 @@ The Java Chat Application is a frontend implementation of a real-time chat platf
 The frontend code connects to a backend server implemented using Spring Boot, which handles the WebSocket communication and message broadcasting. The backend server should be running at `http://localhost:8080` for the frontend to establish a WebSocket connection.
 
 Please refer to the backend code and the provided README for instructions on running the backend server.
+https://github.com/Ebby12/my-Chat-app-backend
 
 ## Usage
 
