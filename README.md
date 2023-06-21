@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Java Chat Application (Frontend)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Java Chat Application is a frontend implementation of a real-time chat platform using React. It provides a user-friendly interface for users to communicate with each other in real-time. The frontend code is written in React and utilizes various libraries such as MUI (Material-UI) for UI components and StompJS for WebSocket communication.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Real-time messaging: Users can send and receive messages instantly within the chat application.
+- Connect to WebSocket: Users can establish a WebSocket connection to the chat server to enable real-time communication.
+- Display chat history: The application displays the chat history, including the sender, timestamp, and message content.
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js and npm installed on your machine.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository to your local machine
+   
+2. Navigate to the project directory:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   cd chat-application-frontend
+ 
+3. Install the dependencies:
+   npm install
+  
+4. Start the development server:
+   npm start
 
-### `npm run build`
+5. Access the chat application in your web browser:
+   http://localhost:3000
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Backend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The frontend code connects to a backend server implemented using Spring Boot, which handles the WebSocket communication and message broadcasting. The backend server should be running at `http://localhost:8080` for the frontend to establish a WebSocket connection.
 
-### `npm run eject`
+Please refer to the backend code and the provided README for instructions on running the backend server.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Open the chat application in your web browser.
+2. Click on the "Connect" button to establish a WebSocket connection with the backend server.
+3. Once connected, you can start sending and receiving messages in real-time.
+4. The chat history will be displayed in the chat window, showing the timestamp, and message content.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
