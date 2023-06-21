@@ -14,18 +14,10 @@ The Java Chat Application is a frontend implementation of a real-time chat platf
 
 ## Installation
 
-1. Clone the repository to your local machine
-   
-2. Navigate to the project directory:
-
-   cd chat-application-frontend
- 
-3. Install the dependencies:
-   npm install
-  
-4. Start the development server:
-   npm start
-
+1. Clone the repository to your local machine   
+2. Navigate to the project directory
+3. Install the dependencies 
+4. Start the development server
 5. Access the chat application in your web browser:
    http://localhost:3000
 
