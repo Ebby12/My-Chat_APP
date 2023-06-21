@@ -35,6 +35,9 @@ Please refer to the backend code and the provided README for instructions on run
 3. Once connected, you can start sending and receiving messages in real-time.
 4. The chat history will be displayed in the chat window, showing the timestamp, and message content.
 
+# Acknowledgements
+The Java Chat Application frontend was developed with the help of various open-source libraries and resources. Special thanks to the React community and the developers behind MUI (Material-UI) and StompJS for their contributions.
+
 
 
 
